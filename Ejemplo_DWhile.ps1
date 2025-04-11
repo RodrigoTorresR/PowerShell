@@ -1,0 +1,7 @@
+$contador=2
+Do
+{
+	Write-Host "Contador es: $contador"
+	$contador++
+}While ($contador -lt 10)
+

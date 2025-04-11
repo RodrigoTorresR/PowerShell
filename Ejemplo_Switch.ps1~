@@ -1,0 +1,9 @@
+$respuesta=3
+Write-Host "Acorde al contenido de la variable respuesta es la selección"
+Write-Host ""
+Switch($respuesta){
+	1 (Write-Host "Seleccion 1")
+	2 (Write-Host "Seleccion 2")
+	3 (Write-Host "Seleccion 3")
+	Default {Write-Host "Seleccion no en lista"}
+}
